@@ -3,8 +3,8 @@ import { logo, icons8 } from "../assets";
 
 const Hero = () => {
   return (
-    <header className="w-full flex justify-center items-center flex-col p-3">
-      <nav className="flex justify-between items-center w-full  mb-10 mt-3.5">
+    <header className="w-full flex flex-col items-center p-4">
+      <nav className="flex justify-between items-center w-full max-w-7xl mx-auto px-5 mb-10 mt-3.5">
         <img
           src={logo}
           alt="AtiSumm_Logo_Image"
@@ -13,22 +13,26 @@ const Hero = () => {
 
         <button
           type="button"
-          className="black_btn flex gap-2"
+          className="black_btn flex items-center gap-2 px-4 py-2 rounded-md shadow-md hover:bg-black hover:text-white transition-all duration-200"
           onClick={() => window.open("https://github.com/8mileverse")}
         >
-          <img src={icons8} className="w-5" /> Github Repo
+          <img src={icons8} className="w-5 h-5" alt="GitHub icon" />
+          <span>Github Repo</span>
         </button>
       </nav>
-      <h1 className="head_text">
-        Summarize Articles with <br className="max-md:hidden" />
+
+      <h1 className="head_text text-center">
+        Summarize Articles with <br className="hidden md:inline-block" />
         <span className="orange_gradient">OpenAI GPT-4</span>
       </h1>
-      <h2 className="desc">
-        Simplify Your Reading with ArtiSumm, an open-source article summarizer
-        that transform lenghty articles into clear and concise summaries! 
+
+      <h2 className="desc text-center max-w-2xl">
+        Simplify your reading with <strong>ArtiSumm</strong>, an open-source article summarizer
+        that transforms lengthy articles into clear and concise summaries!
       </h2>
     </header>
   );
 };
 
 export default Hero;
+
