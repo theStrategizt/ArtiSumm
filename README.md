@@ -27,6 +27,7 @@ The application provides a seamless, user-friendly interface where you can paste
 - **Support for Article URLs**: Paste any article's URL, and the AI will process and generate a summary.
 - **Real-Time Results**: Get your article summary within seconds.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Rate Limitation**: The app is rate-limited to **50 requests per month** for free users.
 - **Open Source**: Free to use and contribute to.
 
 ---
@@ -122,3 +123,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 * **Adrian of JSM**: A special thanks to Adrian from JSM for his helpful tutorial and guidance while building this project. His tutorial was invaluable in getting the project off the ground.
 
 
+
+
+The **rate-limitation** feature is now included in the **Features** section to indicate that users can make **50 requests per month**. Let me know if you need any further edits!
