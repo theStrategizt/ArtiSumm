@@ -14,7 +14,7 @@ const Hero = () => {
         <button
           type="button"
           className="black_btn flex items-center gap-2 px-4 py-2 rounded-md shadow-md hover:bg-black hover:text-white transition-all duration-200"
-          onClick={() => window.open("https://github.com/8mileverse")}
+          onClick={() => window.open("https://github.com/8mileverse/ArtiSumm")}
         >
           <img src={icons8} className="w-5 h-5 sm:hidden" alt="GitHub icon" />
           <span>Github Repo</span>
